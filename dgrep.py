@@ -1,5 +1,10 @@
 #! /usr/bin/python
 
+'''
+    Practice -- scripting to encapsulate a generalized string search in
+    a directory.
+'''
+
 import sys
 import os
 import re
@@ -75,3 +80,4 @@ def main(wdir=os.getcwd(),sstr=''):
 
 if __name__ == "__main__":
     main()
+
